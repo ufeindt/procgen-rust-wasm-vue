@@ -1,4 +1,8 @@
-on: [push]
+name: Build and Deploy to Cloudflare Pages
+on:
+  push:
+    branches:
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest

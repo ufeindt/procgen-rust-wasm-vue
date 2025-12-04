@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { sum, divide, multiply, subtract } from 'procgen'
+import { sum, divide, multiply, subtract, square } from 'procgen'
 </script>
 
 <template>
@@ -12,6 +12,7 @@ import { sum, divide, multiply, subtract } from 'procgen'
       <p>5 - 4 = {{ subtract(5, 4) }}</p>
       <p>4 * 5 = {{ multiply(4, 5) }}</p>
       <p>9 / 4 = {{ divide(9, 4) }}</p>
+      <p>3 ^ 2 = {{ square(3) }}</p>
     </div>
   </div>
 </template>

@@ -20,6 +20,11 @@ pub fn divide(left: i32, right: i32) -> i32 {
     left / right
 }
 
+#[wasm_bindgen]
+pub fn square(x: i32) -> i32 {
+    x * x
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
